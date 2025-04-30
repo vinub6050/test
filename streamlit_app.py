@@ -1,7 +1,5 @@
 import streamlit as st
 import openai
-pip install streamlit openai
-
 
 # 앱 타이틀
 st.title("GPT-4.1 Mini 웹 앱")
