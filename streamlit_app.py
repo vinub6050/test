@@ -1,3 +1,13 @@
+cd my-chatbot-app  # streamlit_app.py 있는 폴더로 이동
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/streamlit-chatbot.git
+git push -u origin main
+
+
 # streamlit_app.py
 import streamlit as st
 import openai
