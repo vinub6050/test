@@ -1,3 +1,4 @@
+# streamlit_app.py
 import streamlit as st
 from openai import OpenAI
 
@@ -15,3 +16,6 @@ if st.button("Ask!", disabled=(len(prompt)==0)):
     )
 
     st.write(response.output_text)
+===========
+## requirement.txt
+openai
